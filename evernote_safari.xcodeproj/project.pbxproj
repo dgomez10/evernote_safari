@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C821C961A98DEA700A77B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821C951A98DEA700A77B1D /* AppDelegate.swift */; };
+		4C821C981A98DEA700A77B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821C971A98DEA700A77B1D /* ViewController.swift */; };
+		4C821C9B1A98DEA700A77B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C991A98DEA700A77B1D /* Main.storyboard */; };
+		4C821C9D1A98DEA700A77B1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C9C1A98DEA700A77B1D /* Images.xcassets */; };
+		4C821CA01A98DEA700A77B1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C9E1A98DEA700A77B1D /* LaunchScreen.xib */; };
+		4C821CAC1A98DEA700A77B1D /* evernote_safariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821CAB1A98DEA700A77B1D /* evernote_safariTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C821CA61A98DEA700A77B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C821C881A98DEA700A77B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C821C8F1A98DEA700A77B1D;
+			remoteInfo = evernote_safari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C821C901A98DEA700A77B1D /* evernote_safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evernote_safari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C821C941A98DEA700A77B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C821C951A98DEA700A77B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C821C971A98DEA700A77B1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C821C9A1A98DEA700A77B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C821C9C1A98DEA700A77B1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C821C9F1A98DEA700A77B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4C821CA51A98DEA700A77B1D /* evernote_safariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evernote_safariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C821CAA1A98DEA700A77B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C821CAB1A98DEA700A77B1D /* evernote_safariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evernote_safariTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C821C8D1A98DEA700A77B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C821CA21A98DEA700A77B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C821C871A98DEA700A77B1D = {
+			isa = PBXGroup;
+			children = (
+				4C821C921A98DEA700A77B1D /* evernote_safari */,
+				4C821CA81A98DEA700A77B1D /* evernote_safariTests */,
+				4C821C911A98DEA700A77B1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C821C911A98DEA700A77B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C821C901A98DEA700A77B1D /* evernote_safari.app */,
+				4C821CA51A98DEA700A77B1D /* evernote_safariTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C821C921A98DEA700A77B1D /* evernote_safari */ = {
+			isa = PBXGroup;
+			children = (
+				4C821C951A98DEA700A77B1D /* AppDelegate.swift */,
+				4C821C971A98DEA700A77B1D /* ViewController.swift */,
+				4C821C991A98DEA700A77B1D /* Main.storyboard */,
+				4C821C9C1A98DEA700A77B1D /* Images.xcassets */,
+				4C821C9E1A98DEA700A77B1D /* LaunchScreen.xib */,
+				4C821C931A98DEA700A77B1D /* Supporting Files */,
+			);
+			path = evernote_safari;
+			sourceTree = "<group>";
+		};
+		4C821C931A98DEA700A77B1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C821C941A98DEA700A77B1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C821CA81A98DEA700A77B1D /* evernote_safariTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C821CAB1A98DEA700A77B1D /* evernote_safariTests.swift */,
+				4C821CA91A98DEA700A77B1D /* Supporting Files */,
+			);
+			path = evernote_safariTests;
+			sourceTree = "<group>";
+		};
+		4C821CA91A98DEA700A77B1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C821CAA1A98DEA700A77B1D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C821C8F1A98DEA700A77B1D /* evernote_safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C821CAF1A98DEA700A77B1D /* Build configuration list for PBXNativeTarget "evernote_safari" */;
+			buildPhases = (
+				4C821C8C1A98DEA700A77B1D /* Sources */,
+				4C821C8D1A98DEA700A77B1D /* Frameworks */,
+				4C821C8E1A98DEA700A77B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = evernote_safari;
+			productName = evernote_safari;
+			productReference = 4C821C901A98DEA700A77B1D /* evernote_safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C821CA41A98DEA700A77B1D /* evernote_safariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C821CB21A98DEA700A77B1D /* Build configuration list for PBXNativeTarget "evernote_safariTests" */;
+			buildPhases = (
+				4C821CA11A98DEA700A77B1D /* Sources */,
+				4C821CA21A98DEA700A77B1D /* Frameworks */,
+				4C821CA31A98DEA700A77B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C821CA71A98DEA700A77B1D /* PBXTargetDependency */,
+			);
+			name = evernote_safariTests;
+			productName = evernote_safariTests;
+			productReference = 4C821CA51A98DEA700A77B1D /* evernote_safariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C821C881A98DEA700A77B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Damian;
+				TargetAttributes = {
+					4C821C8F1A98DEA700A77B1D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4C821CA41A98DEA700A77B1D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4C821C8F1A98DEA700A77B1D;
+					};
+				};
+			};
+			buildConfigurationList = 4C821C8B1A98DEA700A77B1D /* Build configuration list for PBXProject "evernote_safari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C821C871A98DEA700A77B1D;
+			productRefGroup = 4C821C911A98DEA700A77B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C821C8F1A98DEA700A77B1D /* evernote_safari */,
+				4C821CA41A98DEA700A77B1D /* evernote_safariTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C821C8E1A98DEA700A77B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C821C9B1A98DEA700A77B1D /* Main.storyboard in Resources */,
+				4C821CA01A98DEA700A77B1D /* LaunchScreen.xib in Resources */,
+				4C821C9D1A98DEA700A77B1D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C821CA31A98DEA700A77B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C821C8C1A98DEA700A77B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C821C981A98DEA700A77B1D /* ViewController.swift in Sources */,
+				4C821C961A98DEA700A77B1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C821CA11A98DEA700A77B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C821CAC1A98DEA700A77B1D /* evernote_safariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C821CA71A98DEA700A77B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C821C8F1A98DEA700A77B1D /* evernote_safari */;
+			targetProxy = 4C821CA61A98DEA700A77B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C821C991A98DEA700A77B1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C821C9A1A98DEA700A77B1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C821C9E1A98DEA700A77B1D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C821C9F1A98DEA700A77B1D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C821CAD1A98DEA700A77B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C821CAE1A98DEA700A77B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C821CB01A98DEA700A77B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = evernote_safari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C821CB11A98DEA700A77B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = evernote_safari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C821CB31A98DEA700A77B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = evernote_safariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evernote_safari.app/evernote_safari";
+			};
+			name = Debug;
+		};
+		4C821CB41A98DEA700A77B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = evernote_safariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evernote_safari.app/evernote_safari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C821C8B1A98DEA700A77B1D /* Build configuration list for PBXProject "evernote_safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C821CAD1A98DEA700A77B1D /* Debug */,
+				4C821CAE1A98DEA700A77B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C821CAF1A98DEA700A77B1D /* Build configuration list for PBXNativeTarget "evernote_safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C821CB01A98DEA700A77B1D /* Debug */,
+				4C821CB11A98DEA700A77B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C821CB21A98DEA700A77B1D /* Build configuration list for PBXNativeTarget "evernote_safariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C821CB31A98DEA700A77B1D /* Debug */,
+				4C821CB41A98DEA700A77B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C821C881A98DEA700A77B1D /* Project object */;
+}
