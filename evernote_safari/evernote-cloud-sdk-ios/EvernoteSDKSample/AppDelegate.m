@@ -12,14 +12,11 @@
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)EvernoteSDKSample:(UIApplication *)EvernoteSDKSample didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-#warning Add Consumer Key and Consumer Secret, but also modify your app's Info.plist according to documentation!
-#warning Remove these warnings once done with it.
-
-    // Set shared session key information.
-    [ENSession setSharedSessionConsumerKey:@"your key"
-                            consumerSecret:@"your secret"
+ // Set shared session key information.
+    [ENSession setSharedSessionConsumerKey:@"dgomez10"
+                            consumerSecret:@"6c368fc0ab3d9624"
                               optionalHost:ENSessionHostSandbox];
     
     // Override point for customization after application launch.

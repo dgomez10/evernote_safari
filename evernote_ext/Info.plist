@@ -7,13 +7,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>evernote_ext</string>
 	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
+	<string>$(ENSDK)</string>
 	<key>CFBundleIdentifier</key>
-	<string>damian.evernote-safari.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>damian.evernote-safari.$(evernote_ext:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>$(evernote_safari)</string>
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
@@ -33,6 +33,8 @@
 		<string>MainInterface</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.ui-services</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>ActionViewController</string>
 	</dict>
 </dict>
 </plist>

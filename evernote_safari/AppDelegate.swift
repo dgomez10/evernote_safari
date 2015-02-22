@@ -6,18 +6,21 @@
 //  Copyright (c) 2015 Damian. All rights reserved.
 //
 
-import UIKit
+import UIKit;
+import <ENSDK/ENSDK.h>;
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(evernote_safari: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication,
+        willFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-            [ENSession setSharedSessionDeveloperToken:@"S=s154:U=fe01d2:E=1530452a55c:C=14baca17770:P=1cd:A=en-devtoken:V=2:H=bba312b4b68c6f7bfc1a3fb3e0d152bf"
-                noteStoreUrl:@"https://www.evernote.com/shard/s154/notestore"];
+        
+            [ENSession, setSharedSessionDeveloperToken : "Ss154Ufe01d2:E=1530452a55c:C=14baca17770:P=1cd:A=en-devtoken:V=2:H=bba312b4b68c6f7bfc1a3fb3e0d152bf";
+                noteStoreUrl : "https://www.evernote.com/shard/s154/notestore";
+            ]
         return true
     }
 
@@ -35,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
 
-    func applicationDidBecomeActive(application: UIApplication, ) {
+    func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
 

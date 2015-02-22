@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1B0A181A995D9300719CF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1B0A171A995D9200719CF5 /* Default-568h@2x.png */; };
+		4C1B0A191A995DC200719CF5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C821CC81A98E30E00A77B1D /* MobileCoreServices.framework */; };
+		4C1B0A1A1A995DEB00719CF5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C821CCA1A98E32900A77B1D /* libxml2.dylib */; };
+		4C3F03541A9980A00015327B /* Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F03531A9980A00015327B /* Main.nib */; };
+		4C3F03551A9980A00015327B /* Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3F03531A9980A00015327B /* Main.nib */; };
+		4C7F75C11A996A91007B0D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821C951A98DEA700A77B1D /* AppDelegate.swift */; };
+		4C7F75C21A996C04007B0D31 /* evernote_safari.app in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C901A98DEA700A77B1D /* evernote_safari.app */; };
+		4C7F75C31A996C05007B0D31 /* evernote_safari.app in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C901A98DEA700A77B1D /* evernote_safari.app */; };
+		4C7F75C61A997A07007B0D31 /* MainInterface.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F75C51A997A06007B0D31 /* MainInterface.nib */; };
+		4C7F75C71A997A07007B0D31 /* MainInterface.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F75C51A997A06007B0D31 /* MainInterface.nib */; };
+		4C7F75C81A997D4C007B0D31 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C821CBC1A98E20B00A77B1D /* Info.plist */; };
+		4C7F75C91A997D4D007B0D31 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C821CBC1A98E20B00A77B1D /* Info.plist */; };
 		4C821C961A98DEA700A77B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821C951A98DEA700A77B1D /* AppDelegate.swift */; };
 		4C821C981A98DEA700A77B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821C971A98DEA700A77B1D /* ViewController.swift */; };
-		4C821C9B1A98DEA700A77B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C991A98DEA700A77B1D /* Main.storyboard */; };
 		4C821C9D1A98DEA700A77B1D /* evernote_menu_logo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C9C1A98DEA700A77B1D /* evernote_menu_logo.xcassets */; };
 		4C821CA01A98DEA700A77B1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C821C9E1A98DEA700A77B1D /* LaunchScreen.xib */; };
 		4C821CAC1A98DEA700A77B1D /* evernote_safariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821CAB1A98DEA700A77B1D /* evernote_safariTests.swift */; };
 		4C821CBE1A98E20B00A77B1D /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C821CBD1A98E20B00A77B1D /* ActionViewController.swift */; };
-		4C821CC01A98E20B00A77B1D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C821CBF1A98E20B00A77B1D /* MainInterface.storyboard */; };
 		4C821CC31A98E20B00A77B1D /* evernote_ext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C821CB91A98E20B00A77B1D /* evernote_ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4C821CC91A98E30E00A77B1D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C821CC81A98E30E00A77B1D /* MobileCoreServices.framework */; };
 		4C821CCB1A98E32900A77B1D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C821CCA1A98E32900A77B1D /* libxml2.dylib */; };
@@ -55,11 +65,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C1B0A171A995D9200719CF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C3F03531A9980A00015327B /* Main.nib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.nib; sourceTree = "<group>"; };
+		4C7F75C51A997A06007B0D31 /* MainInterface.nib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MainInterface.nib; sourceTree = "<group>"; };
 		4C821C901A98DEA700A77B1D /* evernote_safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evernote_safari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C821C941A98DEA700A77B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C821C951A98DEA700A77B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C821C951A98DEA700A77B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = evernote_safari/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		4C821C971A98DEA700A77B1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C821C9A1A98DEA700A77B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C821C9C1A98DEA700A77B1D /* evernote_menu_logo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = evernote_menu_logo.xcassets; sourceTree = "<group>"; };
 		4C821C9F1A98DEA700A77B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4C821CA51A98DEA700A77B1D /* evernote_safariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evernote_safariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +80,6 @@
 		4C821CB91A98E20B00A77B1D /* evernote_ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = evernote_ext.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C821CBC1A98E20B00A77B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C821CBD1A98E20B00A77B1D /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		4C821CBF1A98E20B00A77B1D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		4C821CC81A98E30E00A77B1D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		4C821CCA1A98E32900A77B1D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		4CA201601A994DE6005884A8 /* evernote-cloud-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "evernote-cloud-sdk-ios"; sourceTree = "<group>"; };
@@ -81,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1B0A1A1A995DEB00719CF5 /* libxml2.dylib in Frameworks */,
+				4C1B0A191A995DC200719CF5 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +120,7 @@
 		4C821C871A98DEA700A77B1D = {
 			isa = PBXGroup;
 			children = (
+				4C1B0A171A995D9200719CF5 /* Default-568h@2x.png */,
 				4C821CCA1A98E32900A77B1D /* libxml2.dylib */,
 				4C821CC81A98E30E00A77B1D /* MobileCoreServices.framework */,
 				4C821C921A98DEA700A77B1D /* evernote_safari */,
@@ -132,7 +146,7 @@
 				4CA201601A994DE6005884A8 /* evernote-cloud-sdk-ios */,
 				4C821C951A98DEA700A77B1D /* AppDelegate.swift */,
 				4C821C971A98DEA700A77B1D /* ViewController.swift */,
-				4C821C991A98DEA700A77B1D /* Main.storyboard */,
+				4C3F03531A9980A00015327B /* Main.nib */,
 				4C821C9C1A98DEA700A77B1D /* evernote_menu_logo.xcassets */,
 				4C821C9E1A98DEA700A77B1D /* LaunchScreen.xib */,
 				4C821C931A98DEA700A77B1D /* Supporting Files */,
@@ -169,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				4C821CBD1A98E20B00A77B1D /* ActionViewController.swift */,
-				4C821CBF1A98E20B00A77B1D /* MainInterface.storyboard */,
+				4C7F75C51A997A06007B0D31 /* MainInterface.nib */,
 				4CA201621A994E0A005884A8 /* ENSDK.framework */,
 				4CA201631A994E0A005884A8 /* ENSDKResources.bundle */,
 				4C821CBB1A98E20B00A77B1D /* Supporting Files */,
@@ -288,9 +302,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C821C9B1A98DEA700A77B1D /* Main.storyboard in Resources */,
+				4C7F75C81A997D4C007B0D31 /* Info.plist in Resources */,
+				4C7F75C61A997A07007B0D31 /* MainInterface.nib in Resources */,
+				4C7F75C31A996C05007B0D31 /* evernote_safari.app in Resources */,
 				4CA201611A994DE6005884A8 /* evernote-cloud-sdk-ios in Resources */,
+				4C3F03541A9980A00015327B /* Main.nib in Resources */,
 				4C821CA01A98DEA700A77B1D /* LaunchScreen.xib in Resources */,
+				4C1B0A181A995D9300719CF5 /* Default-568h@2x.png in Resources */,
 				4C821C9D1A98DEA700A77B1D /* evernote_menu_logo.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,8 +324,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C821CC01A98E20B00A77B1D /* MainInterface.storyboard in Resources */,
+				4C7F75C21A996C04007B0D31 /* evernote_safari.app in Resources */,
 				4CA201651A994E0A005884A8 /* ENSDKResources.bundle in Resources */,
+				4C3F03551A9980A00015327B /* Main.nib in Resources */,
+				4C7F75C91A997D4D007B0D31 /* Info.plist in Resources */,
+				4C7F75C71A997A07007B0D31 /* MainInterface.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7F75C11A996A91007B0D31 /* AppDelegate.swift in Sources */,
 				4C821CBE1A98E20B00A77B1D /* ActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C821C991A98DEA700A77B1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C821C9A1A98DEA700A77B1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C821C9E1A98DEA700A77B1D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

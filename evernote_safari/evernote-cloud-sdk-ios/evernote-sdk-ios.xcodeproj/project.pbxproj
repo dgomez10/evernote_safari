@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0BB3D1B11524ED96001C4534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB3D1B01524ED96001C4534 /* Foundation.framework */; };
+		4C1B0A1B1A99647D00719CF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD37E1908FFC1003736EE /* AppDelegate.m */; };
+		4C1B0A1C1A99651C00719CF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD37E1908FFC1003736EE /* AppDelegate.m */; };
+		4C1B0A1D1A99668E00719CF5 /* ENSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 865C383A18F8BA2400ECB2BA /* ENSDK-Info.plist */; };
 		8600EC171A15D97400F8F838 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8600EC161A15D97400F8F838 /* Launch Screen.xib */; };
 		8603EFF61A731A680002AE28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8603EFF51A731A680002AE28 /* Images.xcassets */; };
 		860DF40A18FCCE51002B4793 /* ENSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BE2E23F418EBA5D500BD7E6E /* ENSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1289,6 +1292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1B0A1D1A99668E00719CF5 /* ENSDK-Info.plist in Resources */,
 				862CE9FF1A757C4B00D0DB23 /* ENSSKeychain.strings in Resources */,
 				865C383D18F8BA2400ECB2BA /* InfoPlist.strings in Resources */,
 			);
@@ -1334,6 +1338,7 @@
 			files = (
 				BE2E246318EBA5D500BD7E6E /* EDAMLimits.m in Sources */,
 				BE2E247D18EBA5D500BD7E6E /* ENXMLWriter.m in Sources */,
+				4C1B0A1C1A99651C00719CF5 /* AppDelegate.m in Sources */,
 				BE2E24A318EBA5D500BD7E6E /* KSXMLAttributes.m in Sources */,
 				BE2E24D518EBA5D500BD7E6E /* ENOAuthViewController.m in Sources */,
 				BE2E24DF18EBA5D500BD7E6E /* ENSaveToEvernoteActivity.m in Sources */,
@@ -1421,6 +1426,7 @@
 			files = (
 				860DF4A418FDE14F002B4793 /* NSString+XMLAdditions.m in Sources */,
 				860DF49218FDDFDB002B4793 /* ENSDKPrivate.m in Sources */,
+				4C1B0A1B1A99647D00719CF5 /* AppDelegate.m in Sources */,
 				860DF49318FDDFDB002B4793 /* EDAMNoteStoreClient+Utilities.m in Sources */,
 				860DF49418FDDFDB002B4793 /* ENAuthCache.m in Sources */,
 				860DF49518FDDFDB002B4793 /* ENCredentials.m in Sources */,

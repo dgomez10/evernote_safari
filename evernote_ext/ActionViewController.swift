@@ -8,11 +8,30 @@
 
 import UIKit
 import MobileCoreServices
+import UIView
 
 class ActionViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
+    
+    func shouldAutorotate(imageView) -> Bool
+    
+    func becomeFirstResponder() -> Bool {
+        var nibName: String? { MainInterface } //get has property?
+        var extensionContext: NSExtensionContext? { get }
+        var inputViewController: UIInputViewController? { get }
 
+        }
+    
+    func constraints() -> [imageView] {
+        //constraints woudl be limited to just half of the screen.
+    
+    }
+
+    
+    
+    func loadView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
