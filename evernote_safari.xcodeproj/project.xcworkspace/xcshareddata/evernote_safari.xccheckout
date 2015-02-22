@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B8284561-A6E9-4634-B7E1-0D6A5348DD2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>evernote_safari</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B8D794ADBDFF901530C270E31A2E4D71CA6BD708</key>
+		<string>https://github.com/dgomez10/evernote_safari.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>evernote_safari.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B8D794ADBDFF901530C270E31A2E4D71CA6BD708</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dgomez10/evernote_safari.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B8D794ADBDFF901530C270E31A2E4D71CA6BD708</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B8D794ADBDFF901530C270E31A2E4D71CA6BD708</string>
+			<key>IDESourceControlWCCName</key>
+			<string>evernote_safari</string>
+		</dict>
+	</array>
+</dict>
+</plist>
